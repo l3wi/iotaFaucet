@@ -1,0 +1,11 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "start": "micro"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "iota.lib.js": "^0.4.0",
+    "micro": "^8.0.3"
+  }
+}
