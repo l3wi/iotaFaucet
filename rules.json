@@ -1,0 +1,6 @@
+{
+    "rules": [
+      { "pathname": "/", "dest": "faucet.tangle.works" },
+      { "dest": "faucet.tangle.works" }
+    ]
+  }

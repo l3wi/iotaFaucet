@@ -44,8 +44,10 @@ const fundAddress = async (iota, address) => {
 }
 
 module.exports = cors(async (req, res) => {
-  console.log("Request Recieved")    
+  console.log("Request Recieved")   
+  console.log(req) 
   const js = await json(req)
+  console.log(js)
   // Get new pool 
   const resourcePromise = myPool.acquire()
   // Pass back the IOTA object
