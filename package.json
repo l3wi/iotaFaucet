@@ -1,11 +1,14 @@
 {
   "main": "index.js",
   "scripts": {
-    "dev": "micro -p 4000",
-    "start": "micro"
+    "dev": "node index.js",
+    "start": "node index.js"
   },
   "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
     "dotenv": "^4.0.0",
+    "express": "^4.15.4",
     "generic-pool": "^3.1.7",
     "iota.lib.js": "^0.4.0",
     "micro": "^8.0.3",
